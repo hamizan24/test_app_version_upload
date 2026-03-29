@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test SonarQube</title>
 </head>
 <body>
-    <p>Testing Push Command</p>
-    
+
+    <h1>Welcome to My Test Project</h1>
+
+    <script>
+        var name = "Mizan"; // bad practice (var instead of let/const)
+
+        function sayHello() {
+            console.log("Hello " + name);
+        }
+
+        sayHello();
+
+        // unused variable (SonarQube akan detect)
+        var unused = 123;
+    </script>
+
 </body>
 </html>
