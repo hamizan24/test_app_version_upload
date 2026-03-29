@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "http-192-168-1-22-8085",
+        "projectKey": "testing-project"
+    }
+}
